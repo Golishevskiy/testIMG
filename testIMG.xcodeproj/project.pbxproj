@@ -7,23 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB95AB2E258E007000C3B683 /* Category.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB95AB2D258E007000C3B683 /* Category.storyboard */; };
 		ABB75EE62587E611009AA582 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB75EE52587E611009AA582 /* AppDelegate.swift */; };
 		ABB75EE82587E611009AA582 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB75EE72587E611009AA582 /* SceneDelegate.swift */; };
 		ABB75EEA2587E611009AA582 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB75EE92587E611009AA582 /* ViewController.swift */; };
-		ABB75EED2587E611009AA582 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB75EEB2587E611009AA582 /* Main.storyboard */; };
 		ABB75EEF2587E618009AA582 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB75EEE2587E618009AA582 /* Assets.xcassets */; };
 		ABB75EF22587E618009AA582 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB75EF02587E618009AA582 /* LaunchScreen.storyboard */; };
+		ABB75F032587E78B009AA582 /* CategoryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB75EFC2587E78B009AA582 /* CategoryPresenter.swift */; };
+		ABB75F042587E78B009AA582 /* CategoryWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB75EFD2587E78B009AA582 /* CategoryWorker.swift */; };
+		ABB75F052587E78B009AA582 /* CategoryRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB75EFE2587E78B009AA582 /* CategoryRouter.swift */; };
+		ABB75F062587E78B009AA582 /* CategoryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB75EFF2587E78B009AA582 /* CategoryModels.swift */; };
+		ABB75F072587E78B009AA582 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB75F002587E78B009AA582 /* CategoryViewController.swift */; };
+		ABB75F082587E78B009AA582 /* CategoryInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB75F012587E78B009AA582 /* CategoryInteractor.swift */; };
+		ABB75F092587E78B009AA582 /* CategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABB75F022587E78B009AA582 /* CategoryViewController.xib */; };
+		D07CD9ACA383803A32968C33 /* libPods-testIMG.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57DA308DB6742B641F73D65A /* libPods-testIMG.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E52A47BDCF7572E814C7524 /* Pods-testIMG.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testIMG.debug.xcconfig"; path = "Target Support Files/Pods-testIMG/Pods-testIMG.debug.xcconfig"; sourceTree = "<group>"; };
+		57DA308DB6742B641F73D65A /* libPods-testIMG.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testIMG.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D2908D94910AD4A1E4E160A /* Pods-testIMG.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testIMG.release.xcconfig"; path = "Target Support Files/Pods-testIMG/Pods-testIMG.release.xcconfig"; sourceTree = "<group>"; };
+		AB95AB2D258E007000C3B683 /* Category.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Category.storyboard; sourceTree = "<group>"; };
 		ABB75EE22587E611009AA582 /* testIMG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testIMG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABB75EE52587E611009AA582 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABB75EE72587E611009AA582 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		ABB75EE92587E611009AA582 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		ABB75EEC2587E611009AA582 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ABB75EEE2587E618009AA582 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABB75EF12587E618009AA582 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABB75EF32587E618009AA582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABB75EFC2587E78B009AA582 /* CategoryPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryPresenter.swift; sourceTree = "<group>"; };
+		ABB75EFD2587E78B009AA582 /* CategoryWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryWorker.swift; sourceTree = "<group>"; };
+		ABB75EFE2587E78B009AA582 /* CategoryRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRouter.swift; sourceTree = "<group>"; };
+		ABB75EFF2587E78B009AA582 /* CategoryModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModels.swift; sourceTree = "<group>"; };
+		ABB75F002587E78B009AA582 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		ABB75F012587E78B009AA582 /* CategoryInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryInteractor.swift; sourceTree = "<group>"; };
+		ABB75F022587E78B009AA582 /* CategoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D07CD9ACA383803A32968C33 /* libPods-testIMG.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14B1654FFFFAC17F3392C0F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57DA308DB6742B641F73D65A /* libPods-testIMG.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ABB75ED92587E611009AA582 = {
 			isa = PBXGroup;
 			children = (
 				ABB75EE42587E611009AA582 /* testIMG */,
 				ABB75EE32587E611009AA582 /* Products */,
+				FA8E3526EA72EA8AB465B33D /* Pods */,
+				14B1654FFFFAC17F3392C0F6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +86,39 @@
 			isa = PBXGroup;
 			children = (
 				ABB75EE52587E611009AA582 /* AppDelegate.swift */,
+				ABB75EFB2587E652009AA582 /* Category */,
 				ABB75EE72587E611009AA582 /* SceneDelegate.swift */,
 				ABB75EE92587E611009AA582 /* ViewController.swift */,
-				ABB75EEB2587E611009AA582 /* Main.storyboard */,
 				ABB75EEE2587E618009AA582 /* Assets.xcassets */,
 				ABB75EF02587E618009AA582 /* LaunchScreen.storyboard */,
 				ABB75EF32587E618009AA582 /* Info.plist */,
 			);
 			path = testIMG;
+			sourceTree = "<group>";
+		};
+		ABB75EFB2587E652009AA582 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				ABB75F022587E78B009AA582 /* CategoryViewController.xib */,
+				AB95AB2D258E007000C3B683 /* Category.storyboard */,
+				ABB75F002587E78B009AA582 /* CategoryViewController.swift */,
+				ABB75F012587E78B009AA582 /* CategoryInteractor.swift */,
+				ABB75EFC2587E78B009AA582 /* CategoryPresenter.swift */,
+				ABB75EFD2587E78B009AA582 /* CategoryWorker.swift */,
+				ABB75EFE2587E78B009AA582 /* CategoryRouter.swift */,
+				ABB75EFF2587E78B009AA582 /* CategoryModels.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		FA8E3526EA72EA8AB465B33D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E52A47BDCF7572E814C7524 /* Pods-testIMG.debug.xcconfig */,
+				5D2908D94910AD4A1E4E160A /* Pods-testIMG.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +128,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABB75EF62587E618009AA582 /* Build configuration list for PBXNativeTarget "testIMG" */;
 			buildPhases = (
+				FAE8C84FAEFADE524BFED826 /* [CP] Check Pods Manifest.lock */,
 				ABB75EDE2587E611009AA582 /* Sources */,
 				ABB75EDF2587E611009AA582 /* Frameworks */,
 				ABB75EE02587E611009AA582 /* Resources */,
+				A9EB7DC0163168BCE305D516 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,20 +180,69 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB95AB2E258E007000C3B683 /* Category.storyboard in Resources */,
+				ABB75F092587E78B009AA582 /* CategoryViewController.xib in Resources */,
 				ABB75EF22587E618009AA582 /* LaunchScreen.storyboard in Resources */,
 				ABB75EEF2587E618009AA582 /* Assets.xcassets in Resources */,
-				ABB75EED2587E611009AA582 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A9EB7DC0163168BCE305D516 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-testIMG/Pods-testIMG-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-testIMG/Pods-testIMG-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-testIMG/Pods-testIMG-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAE8C84FAEFADE524BFED826 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-testIMG-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ABB75EDE2587E611009AA582 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABB75F082587E78B009AA582 /* CategoryInteractor.swift in Sources */,
+				ABB75F032587E78B009AA582 /* CategoryPresenter.swift in Sources */,
+				ABB75F042587E78B009AA582 /* CategoryWorker.swift in Sources */,
+				ABB75F052587E78B009AA582 /* CategoryRouter.swift in Sources */,
 				ABB75EEA2587E611009AA582 /* ViewController.swift in Sources */,
+				ABB75F072587E78B009AA582 /* CategoryViewController.swift in Sources */,
+				ABB75F062587E78B009AA582 /* CategoryModels.swift in Sources */,
 				ABB75EE62587E611009AA582 /* AppDelegate.swift in Sources */,
 				ABB75EE82587E611009AA582 /* SceneDelegate.swift in Sources */,
 			);
@@ -146,14 +251,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		ABB75EEB2587E611009AA582 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ABB75EEC2587E611009AA582 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ABB75EF02587E618009AA582 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,11 +380,13 @@
 		};
 		ABB75EF72587E618009AA582 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E52A47BDCF7572E814C7524 /* Pods-testIMG.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = testIMG/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -295,17 +394,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Petro.testIMG;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		ABB75EF82587E618009AA582 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D2908D94910AD4A1E4E160A /* Pods-testIMG.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = testIMG/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,7 +414,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Petro.testIMG;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
